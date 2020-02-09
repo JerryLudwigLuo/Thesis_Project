@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b7a3de9-aab8-418d-9698-fe370dd4ab76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/homogen_corner_detector_FAST.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/homogen_corner_detector_FAST.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

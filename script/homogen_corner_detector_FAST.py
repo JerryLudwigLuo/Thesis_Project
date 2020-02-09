@@ -33,7 +33,7 @@ if __name__ == '__main__':
     pic = cv.imread('../pic/forest_2.jpg')
     pic_mark = pic.copy()
     check_rect_len = 100
-    num_of_points = 70
+    num_of_points = 40
     pic_size = pic.shape
     u_max = pic_size[1]
     v_max = pic_size[0]
@@ -68,6 +68,15 @@ if __name__ == '__main__':
                 draw_v_max = num_verify(temp_v+1, v_max)
                 pic_mark[draw_v_min:draw_v_max+1, draw_u_min:draw_u_max+1] = [0, 0, 255]
 
+    data = open('../pic/image/homogen_corner/forest_2_corner_100_40.txt', 'w')
+    data_len = len(corner)
+    for i in range(data_len):
+        for j in corner[i]:
+            data.write(str(i))
+            data.write(' ')
+            data.write(str(j))
+            data.write('\n')
+    data.close()
     cv.imshow('result', pic_mark)
-    cv.imwrite('../pic/image/homogen_corner/forest_2_corner_100_70.jpg', pic_mark)
+    cv.imwrite('../pic/image/homogen_corner/forest_2_corner_100_40.jpg', pic_mark)
     cv.waitKey(0)
