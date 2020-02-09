@@ -1,0 +1,2 @@
+#use_cache "/home/jerryluo/Learn/Thesis_Project/lib/opencv-3.4.8/.cache"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_IPPICV_HASH_3rdparty_ippicv_ippicv_2019_lnx_intel64_general_20180723_tgz"
