@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9b7a3de9-aab8-418d-9698-fe370dd4ab76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/homogen_corner_detector_FAST.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/homogen_corner_detector_FAST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/image/difference_pic/center_at_cross_1pix_pyr_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/image/difference_pic/center_at_cross_1pix_pyr_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/image/difference_pic/center_at_cross_1pix_pyr_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/image/difference_pic/center_at_cross_8pix_pyr_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pic/image/difference_pic/center_at_cross_8pix_pyr_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/image/difference_pic/center_at_cross_8pix_pyr_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pic/image/difference_pic/center_at_cross_8pix_pyr_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/image/difference_pic/center_at_cross_8pix_pyr_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pic/image/difference_pic/center_at_cross_8pix_pyr_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/difference-pic.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/difference-pic.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +30,8 @@
   <component name="ProjectId" id="1Tb3FSQF6lJ87srZAxVsxTqHHFm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/script/homogen_corner_detector_FAST.py" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/script/homography_RANSAC.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -52,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.homogen_corner_detector_FAST">
+  <component name="RunManager" selected="Python.difference-pic">
     <configuration name="compare" type="PythonConfigurationType" factoryName="Python">
       <module name="Thesis_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,6 +157,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script/homogen_corner_detector_FAST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="homography_RANSAC" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Thesis_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script/homography_RANSAC.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,6 +322,7 @@
       <item itemvalue="Python.compare" />
       <item itemvalue="Python.difference-pic" />
       <item itemvalue="Python.homogen_corner_detector_FAST" />
+      <item itemvalue="Python.homography_RANSAC" />
       <item itemvalue="Python.test3" />
       <item itemvalue="Python.main" />
     </list>
@@ -316,7 +345,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

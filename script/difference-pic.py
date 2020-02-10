@@ -39,7 +39,7 @@ def rgb_dis(img_1, img_2, u, v, center_boundary_dist):
 
 if __name__ == '__main__':
     pic_base = cv.imread('../pic/cross_2.jpg')
-    pic_warp = cv.imread('../pic/image/no-point/result_9to10_center_at_cross.jpg')
+    pic_warp = cv.imread('../pic/image/RANSAC_warped/cross_1.jpg')
     pic_base_pyr = []
     pic_warp_pyr = []
     pic_diff_pyr = []
